@@ -49,6 +49,8 @@ picture {
     display: grid;
     grid-template-columns: 500px minmax(365px, 450px);
     grid-template-areas: "column2 column1";
+    overflow: hidden
+    ;
     z-index: 100;
     /* visibility: visible; */
 }
