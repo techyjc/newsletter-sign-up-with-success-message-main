@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="./js/script.js" defer></script>
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <main class="wrapper" data-hidden="false">
+    <picture class="updated-image">
+      <source media="(max-width: 1300px)" srcset="./assets/images/illustration-sign-up-mobile.svg">
+      <source srcset="./assets/images/illustration-sign-up-desktop.svg">
+      <img src="./assets/images/illustration-sign-up-mobile.svg" alt="Stay Updated Graphic">
+      <link rel="stylesheet" href="./css/style.css">
+    </picture>
+    <div class="updated-wrapper">
+
+      <div class="updated-body">
+        <h1 class="updated-title">Stay updated!</h1>
+        <p class="updated-text">Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul class="updated-points">
+          <li class="updated-list-points">
+            Product discovery and building what matters
+          </li>
+          <li class="updated-list-points">
+            Measuring to ensure updates are a success
+          </li>
+          <li class="updated-list-points">
+            And much more!
+          </li>
+        </ul>
+        <div class="updated-form">
+          <form class="updated-subs" action="#" method="post">
+            <label for="email-text" class="email-label">
+              Email address
+              <span class="email-error"></span></label>
+            <input id="email-text" class="email-text" type="email" name="email-text" placeholder="email@company.com" data-error="false">
+            <button class="updated-form-button">Subscribe to monthly newsletter</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <aside class="updated-success" data-hidden="true">
+    <img src="./assets/images/icon-success.svg" alt="" class="updated-success-tick">
+
+    <h1 class="updated-success-title">Thanks for subscribing!</h1>
+
+    <p class="updated-success-text">A confirmation email has been sent to <span class="email-insert">user@loremcompany.com</span>.
+      Please open it and click the button inside to confirm your subscription.</p>
+    
+    <button class="updated-success-button">Dismiss message</button>
+  </aside>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">John Carruthers</a>.
+  </footer>
+</body>
+
+</html>
