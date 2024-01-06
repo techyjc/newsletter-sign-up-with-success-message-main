@@ -47,7 +47,7 @@ picture {
     background-color: var(--neutral-col-100);
     border-radius: 20px;
     display: grid;
-    grid-template-columns: 1fr minmax(365px, 450px);
+    grid-template-columns: 500px minmax(365px, 450px);
     grid-template-areas: "column2 column1";
     z-index: 100;
     /* visibility: visible; */
@@ -71,10 +71,14 @@ picture {
     visibility: hidden;
 }
 
+.updated-body {
+    padding: 2rem;
+}
+
 .updated-title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
-    margin-block: 5rem 1.4rem;
+    margin-block: 4.5rem 0.5rem;
     text-align: center;
 }
 
@@ -190,6 +194,10 @@ picture {
 
 .updated-success-text {
     line-height: 1.5;
+}
+
+.email-insert {
+    font-weight: bold;
 }
 
 .updated-success-button {
