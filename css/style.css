@@ -74,7 +74,8 @@ picture {
 .updated-title {
     font-size: 2.5rem;
     font-weight: 700;
-    margin-block: 2.5rem 1.4rem;
+    margin-block: 5rem 1.4rem;
+    text-align: center;
 }
 
 .updated-text {
@@ -225,6 +226,36 @@ picture {
         grid-area: unset;
         margin: 0;
         width: 100%;
+    }
+
+    .updated-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-block: 2.5rem 1.4rem;
+        text-align: left;
+    }
+    
+    .updated-text {
+        line-height: 1.5;
+        margin-bottom: 0px;
+        padding-bottom: 0rem;
+    }
+    
+    .updated-points {
+        color: var(--neutral-col-200);
+        font-weight: bold;
+        list-style: none;
+        margin: 1.5rem 0 1.7rem 0;
+        padding: 0px;
+    }
+    
+    .updated-list-points {
+        line-height: 1.4;
+        background: url(../assets/images/icon-list.svg);
+        background-position: left top;
+        background-repeat: no-repeat;
+        margin: 0px;
+        padding: 0 0 0.8rem 2.5rem;
     }
 
     .updated-success {
